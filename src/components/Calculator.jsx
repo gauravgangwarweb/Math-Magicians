@@ -12,7 +12,7 @@ const Calculator = () => {
   } 
 
   return (
-    <div className='bg-[#0f172a] w-full h-[745px] flex justify-center'>
+    <div className='bg-[#0f172a] w-full h-[745px] flex justify-center col-span-2 text-black'>
       <div className='w-[60%] grid columns-6 gap-1 bg-[#c8c8c8] h-[80%] mt-20 text-3xl'>
         <ul className='w-full bg-[#858693] flex justify-end'>
           <span className='my-[auto] p-2 result text-white text-right'>{total} {" "} {operation} {" "} {next}</span>
